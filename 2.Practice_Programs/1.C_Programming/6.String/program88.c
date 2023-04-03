@@ -1,0 +1,56 @@
+// APPLICATION NAME : Accept character from user and check wather it is a digit
+
+// INPUT = 7
+/*
+
+
+
+*/
+
+
+// OUTPUT : is Digit
+/*  
+
+
+
+*/
+
+
+//////////////////////////////////////////////////////////
+//
+//  Application Name : Check if Digit  
+//  Input : '9'    
+//  Output : is Digit
+//  Author : Shrinivas joshi   
+//  Date : 16/11/2022    
+//
+//////////////////////////////////////////////////////////
+
+#include<stdio.h>
+#include<stdbool.h>
+
+///////////////////////////////////////////////////////////
+//Bussiness logic function
+//////////////////////////////////////////////////////////
+
+bool IsDigit(char ch)
+{
+    if ((ch >='0')&&(ch<='9'))
+        {
+            return true ;
+        } 
+    else
+        {
+            return false;
+        }
+}
+
+
+//////////////////////////////////////////////////////////
+//Entry point function 
+//////////////////////////////////////////////////////////
+int main()
+{
+
+    return 0;
+}

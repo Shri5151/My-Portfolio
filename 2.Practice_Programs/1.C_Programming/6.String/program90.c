@@ -1,0 +1,50 @@
+// APPLICATION NAME : Accept Name from user and Display it on screen
+
+// INPUT = Shrinivas joshi
+/*
+
+
+
+*/
+
+
+// OUTPUT : Shrinivas Joshi
+/*  
+
+
+
+*/
+
+
+//////////////////////////////////////////////////////////
+//
+//  Application Name : Display Name   
+//  Input :     
+//  Output : 
+//  Author : Shrinivas joshi   
+//  Date : 16/11/2022    
+//
+//////////////////////////////////////////////////////////
+
+#include<stdio.h>
+#include<stdbool.h>
+
+///////////////////////////////////////////////////////////
+//Bussiness logic function
+//////////////////////////////////////////////////////////
+
+
+
+//////////////////////////////////////////////////////////
+//Entry point function 
+//////////////////////////////////////////////////////////
+int main()
+{
+    char Arr [30];
+
+    printf("Enter your full name :");
+    // scanf("%s",Arr);
+    scanf("%[^'\n']s",Arr);
+    printf("Your name is : %s",Arr);
+    return 0;
+}

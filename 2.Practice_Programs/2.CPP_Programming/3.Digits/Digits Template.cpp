@@ -1,0 +1,61 @@
+
+
+
+///////////////////////////////////////////////////////////
+// header files ,keywords ,drectives
+//////////////////////////////////////////////////////////
+
+#include<iostream>
+using namespace std;
+
+//////////////////////////////////////////////////////////
+//Bussiness logic function
+//////////////////////////////////////////////////////////
+class DigitX
+{
+    public:
+        int iNo;
+
+        DigitX()
+            {
+                iNo = 0;
+            }
+        DigitX(int i)
+            {
+                iNo = i;
+            }
+        
+};
+
+//////////////////////////////////////////////////////////
+//Entry point function 
+//////////////////////////////////////////////////////////
+
+int main()
+{
+    int iValue = 0;
+    cout<<"please enter the number : "<<"\n";
+    cin>>iValue;
+
+    DigitX Obj(iValue);
+
+    cout<<Obj.iNo<<"\n";
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
